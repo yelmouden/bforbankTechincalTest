@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "E5629157-2065-42FD-9BFB-E01C7BD1DD11",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "IBANFeatureTests",
+        "name" : "IBANFeatureTests"
+      }
+    }
+  ],
+  "version" : 1
+}

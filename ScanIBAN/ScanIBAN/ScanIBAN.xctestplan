@@ -1,0 +1,43 @@
+{
+  "configurations" : [
+    {
+      "id" : "7A172946-BA66-43C3-99D1-6AE88CD68048",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ScanIBAN.xcodeproj",
+      "identifier" : "DC3CFE112BF6320300F7B531",
+      "name" : "ScanIBAN"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ScanIBANPackage",
+        "identifier" : "IBANFeatureTests",
+        "name" : "IBANFeatureTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:ScanIBANPackage",
+        "identifier" : "UtilsTests",
+        "name" : "UtilsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:ScanIBAN.xcodeproj",
+        "identifier" : "DC71EC5D2BF6B57600E4D3A1",
+        "name" : "ScanIBANUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

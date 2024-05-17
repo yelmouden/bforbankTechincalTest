@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3CFE162BF6320300F7B531 /* ScanIBANApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3CFE152BF6320300F7B531 /* ScanIBANApp.swift */; };
+		DC3CFE182BF6320300F7B531 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3CFE172BF6320300F7B531 /* AppView.swift */; };
+		DC3CFE1A2BF6320500F7B531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3CFE192BF6320500F7B531 /* Assets.xcassets */; };
+		DC3CFE1D2BF6320500F7B531 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3CFE1C2BF6320500F7B531 /* Preview Assets.xcassets */; };
+		DC3CFE282BF6408B00F7B531 /* IBANFeature in Frameworks */ = {isa = PBXBuildFile; productRef = DC3CFE272BF6408B00F7B531 /* IBANFeature */; };
+		DC3CFE2A2BF6424500F7B531 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = DC3CFE292BF6424500F7B531 /* DesignSystem */; };
+		DC71EC632BF6B57600E4D3A1 /* ScanIBANUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC71EC622BF6B57600E4D3A1 /* ScanIBANUITestsLaunchTests.swift */; };
+		DCA47D4D2BF6AE9B00C3BE1A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA47D4C2BF6AE9B00C3BE1A /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC71EC642BF6B57600E4D3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3CFE0A2BF6320300F7B531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3CFE112BF6320300F7B531;
+			remoteInfo = ScanIBAN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC3CFE122BF6320300F7B531 /* ScanIBAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanIBAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3CFE152BF6320300F7B531 /* ScanIBANApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanIBANApp.swift; sourceTree = "<group>"; };
+		DC3CFE172BF6320300F7B531 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		DC3CFE192BF6320500F7B531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC3CFE1C2BF6320500F7B531 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC3CFE252BF6331A00F7B531 /* ScanIBANPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ScanIBANPackage; sourceTree = "<group>"; };
+		DC71EC5E2BF6B57600E4D3A1 /* ScanIBANUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanIBANUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC71EC622BF6B57600E4D3A1 /* ScanIBANUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanIBANUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC8D79772BF660B000FCD03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DCA47D4C2BF6AE9B00C3BE1A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DCA47D4F2BF6AFC100C3BE1A /* ScanIBAN.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = ScanIBAN.xctestplan; path = ScanIBAN/ScanIBAN.xctestplan; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3CFE0F2BF6320300F7B531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3CFE282BF6408B00F7B531 /* IBANFeature in Frameworks */,
+				DC3CFE2A2BF6424500F7B531 /* DesignSystem in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC71EC5B2BF6B57600E4D3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC3CFE092BF6320300F7B531 = {
+			isa = PBXGroup;
+			children = (
+				DCA47D4F2BF6AFC100C3BE1A /* ScanIBAN.xctestplan */,
+				DC3CFE252BF6331A00F7B531 /* ScanIBANPackage */,
+				DC3CFE142BF6320300F7B531 /* ScanIBAN */,
+				DC71EC5F2BF6B57600E4D3A1 /* ScanIBANUITests */,
+				DC3CFE132BF6320300F7B531 /* Products */,
+				DC3CFE262BF6408B00F7B531 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3CFE132BF6320300F7B531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3CFE122BF6320300F7B531 /* ScanIBAN.app */,
+				DC71EC5E2BF6B57600E4D3A1 /* ScanIBANUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3CFE142BF6320300F7B531 /* ScanIBAN */ = {
+			isa = PBXGroup;
+			children = (
+				DC8D79772BF660B000FCD03A /* Info.plist */,
+				DC3CFE152BF6320300F7B531 /* ScanIBANApp.swift */,
+				DC3CFE172BF6320300F7B531 /* AppView.swift */,
+				DC3CFE192BF6320500F7B531 /* Assets.xcassets */,
+				DC3CFE1B2BF6320500F7B531 /* Preview Content */,
+				DCA47D4C2BF6AE9B00C3BE1A /* Launch Screen.storyboard */,
+			);
+			path = ScanIBAN;
+			sourceTree = "<group>";
+		};
+		DC3CFE1B2BF6320500F7B531 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC3CFE1C2BF6320500F7B531 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC3CFE262BF6408B00F7B531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC71EC5F2BF6B57600E4D3A1 /* ScanIBANUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC71EC622BF6B57600E4D3A1 /* ScanIBANUITestsLaunchTests.swift */,
+			);
+			path = ScanIBANUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3CFE112BF6320300F7B531 /* ScanIBAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3CFE202BF6320500F7B531 /* Build configuration list for PBXNativeTarget "ScanIBAN" */;
+			buildPhases = (
+				DC3CFE0E2BF6320300F7B531 /* Sources */,
+				DC3CFE0F2BF6320300F7B531 /* Frameworks */,
+				DC3CFE102BF6320300F7B531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanIBAN;
+			packageProductDependencies = (
+				DC3CFE272BF6408B00F7B531 /* IBANFeature */,
+				DC3CFE292BF6424500F7B531 /* DesignSystem */,
+			);
+			productName = ScanIBAN;
+			productReference = DC3CFE122BF6320300F7B531 /* ScanIBAN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC71EC5D2BF6B57600E4D3A1 /* ScanIBANUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC71EC682BF6B57600E4D3A1 /* Build configuration list for PBXNativeTarget "ScanIBANUITests" */;
+			buildPhases = (
+				DC71EC5A2BF6B57600E4D3A1 /* Sources */,
+				DC71EC5B2BF6B57600E4D3A1 /* Frameworks */,
+				DC71EC5C2BF6B57600E4D3A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC71EC652BF6B57600E4D3A1 /* PBXTargetDependency */,
+			);
+			name = ScanIBANUITests;
+			productName = ScanIBANUITests;
+			productReference = DC71EC5E2BF6B57600E4D3A1 /* ScanIBANUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3CFE0A2BF6320300F7B531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DC3CFE112BF6320300F7B531 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DC71EC5D2BF6B57600E4D3A1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DC3CFE112BF6320300F7B531;
+					};
+				};
+			};
+			buildConfigurationList = DC3CFE0D2BF6320300F7B531 /* Build configuration list for PBXProject "ScanIBAN" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC3CFE092BF6320300F7B531;
+			productRefGroup = DC3CFE132BF6320300F7B531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3CFE112BF6320300F7B531 /* ScanIBAN */,
+				DC71EC5D2BF6B57600E4D3A1 /* ScanIBANUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC3CFE102BF6320300F7B531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA47D4D2BF6AE9B00C3BE1A /* Launch Screen.storyboard in Resources */,
+				DC3CFE1D2BF6320500F7B531 /* Preview Assets.xcassets in Resources */,
+				DC3CFE1A2BF6320500F7B531 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC71EC5C2BF6B57600E4D3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3CFE0E2BF6320300F7B531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3CFE182BF6320300F7B531 /* AppView.swift in Sources */,
+				DC3CFE162BF6320300F7B531 /* ScanIBANApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC71EC5A2BF6B57600E4D3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC71EC632BF6B57600E4D3A1 /* ScanIBANUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC71EC652BF6B57600E4D3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC3CFE112BF6320300F7B531 /* ScanIBAN */;
+			targetProxy = DC71EC642BF6B57600E4D3A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC3CFE1E2BF6320500F7B531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC3CFE1F2BF6320500F7B531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC3CFE212BF6320500F7B531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScanIBAN/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 69XGLNEF48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScanIBAN/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To utilize the app, camera access is required for essential features.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yelmouden.ScanIBAN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "provisionning IBAN Scan";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC3CFE222BF6320500F7B531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScanIBAN/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 69XGLNEF48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScanIBAN/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To utilize the app, camera access is required for essential features.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yelmouden.ScanIBAN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "provisionning IBAN Scan";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DC71EC662BF6B57600E4D3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yelmouden.ScanIBANUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScanIBAN;
+			};
+			name = Debug;
+		};
+		DC71EC672BF6B57600E4D3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yelmouden.ScanIBANUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScanIBAN;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3CFE0D2BF6320300F7B531 /* Build configuration list for PBXProject "ScanIBAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3CFE1E2BF6320500F7B531 /* Debug */,
+				DC3CFE1F2BF6320500F7B531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3CFE202BF6320500F7B531 /* Build configuration list for PBXNativeTarget "ScanIBAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3CFE212BF6320500F7B531 /* Debug */,
+				DC3CFE222BF6320500F7B531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC71EC682BF6B57600E4D3A1 /* Build configuration list for PBXNativeTarget "ScanIBANUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC71EC662BF6B57600E4D3A1 /* Debug */,
+				DC71EC672BF6B57600E4D3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC3CFE272BF6408B00F7B531 /* IBANFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IBANFeature;
+		};
+		DC3CFE292BF6424500F7B531 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DC3CFE0A2BF6320300F7B531 /* Project object */;
+}
